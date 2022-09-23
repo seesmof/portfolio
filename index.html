@@ -26,15 +26,54 @@
 
     <!-- styles -->
     <style type="text/tailwindcss">
-
     </style>
 
 </head>
 
-<body data-theme="dark">
+<body data-theme="light" class="bg-white min-h-screen font-mono">
+    <header class="bg-inherit sticky top-0 z-50">
+        <div class="container mx-auto w-[90%] py-4 flex justify-between items-center">
+            <a href="./index.html" class="transition-all duration-500 hover:scale-105 hover:text-neutral-600">
+                <i class="fas fa-code text-3xl"></i>
+            </a>
 
+            <div class="flex gap-x-0 md:gap-x-2">
+                <label for="theme" class="swap swap-rotate duration-300 hover:scale-110 btn btn-ghost btn-circle">
+                    <input type="checkbox" name="menu" id="theme" class="hidden">
+                    <i class="fas fa-sun text-lg md:text-xl swap-off"></i>
+                    <i class="fas fa-moon text-lg md:text-xl swap-on"></i>
+                </label>
+                <label for="menu" class="swap swap-rotate duration-300 hover:scale-110 btn btn-ghost btn-circle">
+                    <input type="checkbox" name="menu" id="menu" class="hidden">
+                    <i class="fas fa-bars text-lg md:text-xl swap-off"></i>
+                    <i class="fas fa-close text-lg md:text-xl swap-on"></i>
+                </label>
+            </div>
+        </div>
+    </header>
 
+    <div class="bg-inherit">
+        <div class="container mx-auto w-[90%] py-4">
+            <h1 class="text-4xl font-extrabold pt-12">
+                <span
+                    class="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 via-orange-500 to-yellow-500">
+                    I make products
+                </span>
+                that delight and inspire people
+            </h1>
+            <p class="text-slate-600 py-4">
+                Hi there! My name is Oleh, and I am a beginner front-end developer based in Zaporizhzhia, UA. I create
+                neat-looking and seamlessly working websites.
+            </p>
 
+            <div class="flex">
+                <a href="#"
+                    class="bg-black overflow-hidden relative py-4 px-6 text-white z-10 transition-all duration-500">
+                    Get in touch
+                </a>
+            </div>
+        </div>
+    </div>
 </body>
 
 </html>
