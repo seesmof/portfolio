@@ -12,7 +12,7 @@
     <link rel="icon" href="https://img.icons8.com/ios-filled/50/000000/source-code.png">
 
     <!-- title -->
-    <title>Home | seesmof</title>
+    <title>Portfolio | seesmof</title>
 
     <!-- links -->
     <link href="https://cdn.jsdelivr.net/npm/daisyui@2.27.0/dist/full.css" rel="stylesheet" type="text/css" />
@@ -20,112 +20,51 @@
         integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+
     <script defer src="https://cdn.tailwindcss.com"></script>
     <script defer src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio,line-clamp"></script>
     <script defer src="https://kit.fontawesome.com/dfc53f140e.js" crossorigin="anonymous"></script>
 
     <!-- styles -->
     <style type="text/tailwindcss">
+        .grid:first-of-type
+        {
+            font-family: 'Poppins', sans-serif;
+        }
     </style>
 
 </head>
 
-<body data-theme="light" class="bg-white min-h-screen font-mono">
-    <!-- SEC header -->
-    <header class="bg-inherit sticky top-0 z-50">
-        <div class="container mx-auto w-[90%] py-4 flex justify-between items-center">
-            <a href="./index.html" class="transition-all duration-500 hover:scale-105 hover:text-neutral-600">
-                <i class="fas fa-code text-3xl"></i>
-            </a>
-
-            <div class="flex gap-x-0 md:gap-x-2">
-                <label for="theme" class="swap swap-rotate btn btn-ghost btn-circle">
-                    <input type="checkbox" name="menu" id="theme" class="hidden">
-                    <i class="fas fa-sun text-lg md:text-xl swap-off"></i>
-                    <i class="fas fa-moon text-lg md:text-xl swap-on"></i>
-                </label>
-                <label for="menu" class="swap swap-rotate btn btn-ghost btn-circle">
-                    <input type="checkbox" name="menu" id="menu" class="hidden">
-                    <i class="fas fa-bars text-lg md:text-xl swap-off"></i>
-                    <i class="fas fa-close text-lg md:text-xl swap-on"></i>
-                </label>
-            </div>
+<body data-theme="dark">
+    <div class="grid grid-cols-8 font-'Poppins'">
+        <div class="bg-neutral-800 col-span-1 h-screen"></div>
+        <div class="col-span-7">
+            <!-- SEC hero -->
+            <section
+                style="background-image: url('./img/liquid-cheese.svg'); box-shadow: inset 0px 0px 0px 5000px rgba(0,0,0,0.6);"
+                class="h-screen bg-cover">
+                <div class="container h-full mx-auto p-5 flex justify-center items-center">
+                    <div class="flex flex-col gap-y-8 items-center">
+                        <h1 class="font-bold text-9xl uppercase text-white">
+                            Oleh Onyshchenko
+                        </h1>
+                        <h2 class="text-slate-300 text-3xl">
+                            I am a <span class="text-amber-500">Front End developer.</span>
+                        </h2>
+                        <a href="https://t.me/seesmof"
+                            class="bg-neutral-800 transition-all duration-500 hover:-translate-y-1 hover:bg-neutral-900 hover:shadow-xl px-8 py-4 rounded-md text-amber-500 uppercase">
+                            Get in touch
+                        </a>
+                    </div>
+                </div>
+            </section>
+            <!-- /SEC hero -->
         </div>
-    </header>
-    <!-- /SEC header -->
-
-    <!-- SEC hero -->
-    <section class="bg-inherit" id="hero">
-        <div class="container mx-auto w-[90%] py-16">
-            <h1 class="text-4xl font-black md:animate-bounce motion-reduce:animate-none cursor-pointer">
-                <a href="#hero">
-                    <span
-                        class="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 via-orange-500 to-yellow-500">
-                        I make products
-                    </span>
-                    that delight and inspire people
-                </a>
-            </h1>
-            <p class="text-slate-500 py-4 font-medium cursor-pointer">
-                <span class="duration-300 transition-all hover:text-yellow-400">Hi</span>
-                <span class="duration-300 transition-all hover:text-purple-500">there!</span> <span
-                    class="duration-300 transition-all hover:text-orange-500">My</span> <span
-                    class="duration-300 transition-all hover:text-orange-500">name</span>
-                <span class="duration-300 transition-all hover:text-orange-500">is</span>
-                <span class="duration-300 transition-all hover:text-yellow-400">Oleh,</span> <span
-                    class="duration-300 transition-all hover:text-orange-500">and</span> <span
-                    class="duration-300 transition-all hover:text-orange-500">I</span>
-                <span class="duration-300 transition-all hover:text-orange-500">am</span> <span
-                    class="duration-300 transition-all hover:text-orange-500">a</span>
-                <span class="duration-300 transition-all hover:text-yellow-400">beginner</span> <span
-                    class="duration-300 transition-all hover:text-purple-500">front-end</span> <span
-                    class="duration-300 transition-all hover:text-orange-500">developer</span>
-                <span class="duration-300 transition-all hover:text-orange-500">based</span> <span
-                    class="duration-300 transition-all hover:text-orange-500">in</span>
-                <span class="duration-300 transition-all hover:text-purple-500">Zaporizhzhia, UA.</span> <span
-                    class="duration-300 transition-all hover:text-orange-500">I</span> <span
-                    class="duration-300 transition-all hover:text-orange-500">create</span>
-                <span class="duration-300 transition-all hover:text-yellow-400">neat-looking</span> <span
-                    class="duration-300 transition-all hover:text-orange-500">and</span> <span
-                    class="duration-300 transition-all hover:text-purple-500">seamlessly
-                    working</span> <span class="duration-300 transition-all hover:text-orange-500">websites.</span>
-            </p>
-
-            <div class="flex pt-8 items-center gap-x-6">
-                <a href="#"
-                    class="bg-black font-bold border-2 border-black py-3 px-5 text-white z-10 transition-all duration-500 hover:text-black hover:bg-white">
-                    Get in touch
-                </a>
-                <a href="https://github.com/seesmof" class="group font-extrabold">
-                    GitHub <i class="fas fa-arrow-right group-hover:translate-x-2 transition-all duration-300"></i>
-                </a>
-            </div>
-        </div>
-    </section>
-    <!-- /SEC hero -->
-
-    <!-- SEC trusted by -->
-    <section class="bg-slate-100" id="trusted">
-        <div class="container mx-auto w-[90%] py-8">
-            <h2 class="text-center md:text-xl font-medium py-3 duration-500 transition-all hover:-translate-y-1">
-                <a href="#trusted">
-                    Trusted by
-                </a>
-            </h2>
-
-            <div class="grid grid-cols-4 place-items-center gap-x-4 py-2">
-                <img src="./img/logoipsum-238.svg" alt="Logo One."
-                    class="col-span-1 transition-all duration-300 hover:-translate-y-2 cursor-pointer">
-                <img src="./img/logoipsum-242.svg" alt="Logo Two."
-                    class="col-span-1 transition-all duration-300 hover:translate-y-2 cursor-pointer">
-                <img src="./img/logoipsum-253.svg" alt="Logo Three."
-                    class="col-span-1 transition-all duration-300 hover:-translate-y-2 cursor-pointer">
-                <img src="./img/logoipsum-255.svg" alt="Logo Four."
-                    class="col-span-1 transition-all duration-300 hover:translate-y-2 cursor-pointer">
-            </div>
-        </div>
-    </section>
-    <!-- /SEC trusted by -->
+    </div>
 </body>
 
 </html>
