@@ -293,7 +293,7 @@
                     </header>
 
                     <main class="grid grid-cols-3 gap-8 my-12">
-                        <div class="col-span-1 rounded-2xl overflow-hidden bg-black/10 transition-all duration-500">
+                        <div class="col-span-1 rounded-2xl overflow-hidden bg-black/10 shadow-xl">
                             <img src="./img/contact.jpg" class="w-full object-cover h-60">
 
                             <div class="p-6 flex flex-col">
@@ -334,26 +334,49 @@
                                 </footer>
                             </div>
                         </div>
-                        <div class="col-span-2 rounded-2xl overflow-hidden bg-black/10 transition-all duration-500">
-                            <img src="./img/contact.jpg" class="w-full object-cover">
-
-                            <div class="p-6">
-                                <div class="flex justify-between pb-4 w-full text-sm">
-                                    <h2
-                                        class="font-medium tracking-wide text-amber-500 uppercase transition-all duration-500 group-hover:text-amber-400">
-                                        help center</h2>
-                                    <p
-                                        class="uppercase tracking-wide inline-flex items-center gap-x-1 transition-all duration-500 group-hover:text-slate-200">
-                                        <i class="fas fa-calendar-days"></i> aug 20, 2022
-                                    </p>
+                        <div class="col-span-2 rounded-2xl overflow-hidden bg-black/10 shadow-xl">
+                            <form class="p-8 grid grid-cols-2 gap-x-8 gap-y-4">
+                                <div class="form-control col-span-1">
+                                    <label for="name" class="label-text uppercase pb-4">
+                                        your name
+                                    </label>
+                                    <input type="text" id="name" required
+                                        class="bg-black/10 rounded-md border-2 border-black/10 shadow-inner p-3 transition-all focus:outline-none focus:ring-0 focus:border-amber-500">
+                                </div>
+                                <div class="form-control col-span-1">
+                                    <label for="phone" class="label-text uppercase pb-4">
+                                        phone number
+                                    </label>
+                                    <input type="number" id="phone"
+                                        class="bg-black/10 rounded-md border-2 border-black/10 shadow-inner p-3 transition-all focus:outline-none focus:ring-0 focus:border-amber-500">
+                                </div>
+                                <div class="form-control col-span-2">
+                                    <label for="email" class="label-text uppercase pb-4">
+                                        email
+                                    </label>
+                                    <input type="email" id="email" required
+                                        class="bg-black/10 rounded-md border-2 border-black/10 shadow-inner p-3 transition-all focus:outline-none focus:ring-0 focus:border-amber-500">
+                                </div>
+                                <div class="form-control col-span-2">
+                                    <label for="subject" class="label-text uppercase pb-4">
+                                        subject
+                                    </label>
+                                    <input type="text" id="subject" required
+                                        class="bg-black/10 rounded-md border-2 border-black/10 shadow-inner p-3 transition-all focus:outline-none focus:ring-0 focus:border-amber-500">
+                                </div>
+                                <div class="form-control col-span-2">
+                                    <label for="message" class="label-text uppercase pb-4">
+                                        your message
+                                    </label>
+                                    <textarea name="message" id="message" cols="30" rows="7" required
+                                        class="bg-black/10 rounded-md border-2 border-black/10 shadow-inner p-3 transition-all focus:outline-none focus:ring-0  focus:border-amber-500"></textarea>
                                 </div>
 
-                                <div class="text-2xl font-medium">
-                                    <h1 class="transition-all duration-500 group-hover:text-amber-500">
-                                        Abstract Help Center
-                                    </h1>
-                                </div>
-                            </div>
+                                <button type="submit"
+                                    class="col-span-2 p-4 rounded-md uppercase bg-black/20 transition-all duration-300 shadow-lg text-amber-500 hover:-translate-y-1 hover:text-amber-400 hover:shadow-2xl">
+                                    send message
+                                </button>
+                            </form>
                         </div>
                     </main>
                 </div>
