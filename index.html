@@ -13,21 +13,30 @@
       referrerpolicy="no-referrer"
     />
     <title>Portfolio | seesmof</title>
+
+    <!-- 
+    background = #1c1917 
+    text = #fafaf9
+    secondary = #464033
+    tetriary = #7E7C73 
+    -->
   </head>
   <body class="text-stone-50 bg-stone-900">
-    <header class="flex flex-row items-center justify-between px-6 my-4">
+    <header class="flex flex-row items-center justify-between px-4 my-4">
       <a
-        class="text-2xl font-medium duration-500 hover:translate-x-1"
+        class="px-4 text-2xl font-medium duration-500 cursor-pointer hover:translate-x-1"
         href="/index.html"
         >seesmof</a
       >
       <a class="flex items-center gap-x-4">
-        <span
-          class="block font-medium uppercase duration-300 cursor-pointer hover:tracking-wider md:hidden"
-          >menu</span
+        <div
+          href="#"
+          class="px-4 duration-300 rounded-full hover:bg-[#7E7C73] cursor-pointer block md:hidden"
         >
-        <div href="#" class="px-4 duration-300 rounded-full hover:bg-stone-800">
           <i class="text-lg fas fa-bars-staggered"></i>
+        </div>
+        <div class="flex-row items-center hidden px-4 md:flex gap-x-4">
+          <a href="#" class="uppercase">about</a>
         </div>
       </a>
     </header>
