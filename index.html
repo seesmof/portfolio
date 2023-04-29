@@ -17,14 +17,16 @@
     <!-- 
     background = #1c1917 
     text = #fafaf9
-    secondary = #464033
-    tetriary = #7E7C73 
+    secondary = #7e7c73
+    tetriary = #464033 
     -->
   </head>
   <body
     class="flex flex-col justify-between h-screen text-stone-50 bg-stone-900"
   >
-    <header class="flex flex-row items-center justify-between p-4 bg-green-400">
+    <header
+      class="flex flex-row items-center justify-between p-4 border-b-2 border-[#464033]"
+    >
       <a
         class="px-4 text-2xl font-medium duration-500 cursor-pointer hover:translate-x-1"
         href="/index.html"
@@ -33,34 +35,67 @@
       <a class="flex items-center gap-x-4">
         <div
           href="#"
-          class="px-4 duration-300 rounded-full hover:bg-[#7E7C73] cursor-pointer block md:hidden"
+          class="px-4 duration-300 rounded-full hover:bg-[#464033] cursor-pointer block md:hidden"
         >
           <i class="text-lg fas fa-bars-staggered"></i>
         </div>
         <div class="flex-row items-center hidden px-4 md:flex gap-x-3">
           <a
             href="#"
-            class="uppercase duration-300 rounded-full cursor-pointer hover:bg-[#7e7c73] px-4 py-1"
+            class="uppercase duration-300 rounded-full cursor-pointer hover:bg-[#464033] px-4 py-1"
             >Portfolio</a
           >
           <a
             href="#"
-            class="uppercase duration-300 rounded-full cursor-pointer hover:bg-[#7e7c73] px-4 py-1"
+            class="uppercase duration-300 rounded-full cursor-pointer hover:bg-[#464033] px-4 py-1"
             >about</a
           >
           <a
             href="#"
-            class="uppercase duration-300 rounded-full cursor-pointer hover:bg-[#7e7c73] px-4 py-1"
+            class="uppercase duration-300 rounded-full cursor-pointer hover:bg-[#464033] px-4 py-1"
             >contact</a
           >
         </div>
       </a>
     </header>
 
-    <main class="flex-1 p-4"></main>
+    <main class="flex-1 p-4">
+      <div class="grid grid-cols-2 gap-4">
+        <div class="flex flex-col gap-y-3">
+          <a class="relative overflow-hidden cursor-pointer group">
+            <img
+              src="/img/catbird image (1).jpg"
+              alt=""
+              class="object-cover rounded-xl"
+            />
+            <div
+              class="bg-stone-900 bg-opacity-50 opacity-0 group-hover:opacity-100 text-lg duration-500 transition-all absolute top-0 bottom-0 right-0 left-0 flex flex-row justify-center items-center uppercase tracking-wider font-medium gap-x-1.5"
+            >
+              <i class="fas fa-eye"></i>
+              preview
+            </div>
+          </a>
+
+          <a class="flex flex-col" href="#">
+            <h2 class="text-2xl font-bold capitalize">project name</h2>
+            <div
+              class="flex flex-row items-center gap-x-1.5 capitalize font-medium transition-all duration-500 hover:tracking-wide"
+            >
+              Watch live demo
+              <i class="mt-1 fas fa-arrow-right fa-sm"></i>
+            </div>
+          </a>
+        </div>
+        <div class="p-4 bg-neutral-800"></div>
+        <div class="p-4 bg-neutral-800"></div>
+        <div class="p-4 bg-neutral-800"></div>
+        <div class="p-4 bg-neutral-800"></div>
+        <div class="p-4 bg-neutral-800"></div>
+      </div>
+    </main>
 
     <footer
-      class="flex flex-row justify-center py-4 pt-4 border-t-2 border-[#7e7c73] md:hidden"
+      class="flex flex-row justify-center py-4 pt-4 border-t-2 border-[#464033] md:hidden"
     >
       <a
         class="flex flex-row items-center justify-center flex-1 gap-x-1.5 w-1/3 h-full p-4 text-lg uppercase font-medium"
@@ -70,7 +105,7 @@
         about
       </a>
       <a
-        class="flex flex-row items-center justify-center flex-1 gap-x-1.5 w-1/3 h-full p-4 text-lg uppercase font-medium border-l-2 border-r-2 border-[#7e7c73]"
+        class="flex flex-row items-center justify-center flex-1 gap-x-1.5 w-1/3 h-full p-4 text-lg uppercase font-medium border-l-2 border-r-2 border-[#464033]"
         href="#"
       >
         <i class="fas fa-briefcase"></i>
