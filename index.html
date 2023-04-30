@@ -20,7 +20,7 @@
   <body class="bg-slate-900 min-h-screen font-mono text-white">
     <!-- SECTION HEADER -->
     <header
-      class="bg-opacity-90 backdrop-blur-sm bg-slate-900 sticky top-0 z-10 flex flex-row justify-between py-4"
+      class="bg-opacity-90 backdrop-blur-sm bg-slate-900 md:px-6 sticky top-0 z-10 flex flex-row justify-between py-4"
     >
       <!-- COMPONENT MAIN HEADER MENU -->
       <button
@@ -88,10 +88,9 @@
 
     <!-- SECTION MAIN -->
     <main class="gap-y-4 flex flex-col">
-      <!-- SUBSECTION ABOUT -->
-      <article class="" id="about">
-        <!-- SUBSECTION HERO -->
-        <section class="bg-slate-700 flex flex-col p-6">
+      <!-- SUBSECTION HERO -->
+      <section class="bg-slate-700">
+        <div class="md:w-3/4 flex flex-col p-6 mx-auto">
           <div class="flex flex-col max-w-md pt-8 pb-6">
             <h1 class="text-5xl font-bold tracking-wide uppercase">
               Transforming visions into stunning web solutions
@@ -112,8 +111,11 @@
               >get in touch</a
             >
           </div>
-        </section>
+        </div>
+      </section>
 
+      <!-- SUBSECTION ABOUT -->
+      <article class="lg:flex-row md:w-3/4 flex flex-col mx-auto" id="about">
         <!-- SUBSECTION WHO AM I -->
         <section class="px-6 pt-6">
           <header class="pb-4 font-bold">
@@ -205,171 +207,185 @@
       </article>
 
       <!-- SUBSECTION PROJECTS -->
-      <article class="bg-slate-700 flex flex-col p-6 mt-6" id="projects">
-        <header class="flex flex-row items-center justify-between">
-          <h2 class="py-2 text-2xl font-bold capitalize">my projects</h2>
-        </header>
+      <article class="bg-slate-700" id="projects">
+        <div class="md:w-3/4 flex flex-col p-6 mx-auto mt-6">
+          <header class="flex flex-row items-center justify-between">
+            <h2 class="py-2 text-2xl font-bold capitalize">my projects</h2>
+          </header>
 
-        <main
-          class="sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 grid grid-cols-1 gap-4 py-2"
-        >
-          <div class="flex flex-col col-span-1 gap-3">
-            <div class="h-3/4 rounded-xl w-full overflow-hidden">
-              <img src="/img/catbird image (10).jpg" alt="" />
-            </div>
-            <div class="flex flex-col gap-2">
-              <a href="#" class="">
-                <h2 class="hover:text-slate-200 text-xl font-bold duration-300">
-                  Project One Name
-                </h2>
-              </a>
-              <div class="flex flex-row justify-between">
-                <a
-                  class="gap-x-1.5 underline-offset-4 hover:underline flex flex-row cursor-pointer"
-                >
-                  GitHub Repo
-                  <i class="bi-github"></i>
+          <main
+            class="md:grid-cols-2 xl:grid-cols-3 grid grid-cols-1 gap-4 py-2"
+          >
+            <div class="flex flex-col col-span-1 gap-3">
+              <div class="h-3/4 rounded-xl w-full overflow-hidden">
+                <img src="/img/catbird image (10).jpg" alt="" />
+              </div>
+              <div class="flex flex-col gap-2">
+                <a href="#" class="">
+                  <h2
+                    class="hover:text-slate-200 text-xl font-bold duration-300"
+                  >
+                    Project One Name
+                  </h2>
                 </a>
-                <a
-                  class="gap-x-1.5 underline-offset-4 hover:underline flex flex-row cursor-pointer"
-                >
-                  Live Preview
-                  <i class="bi-arrow-up-right"></i>
-                </a>
+                <div class="flex flex-row justify-between">
+                  <a
+                    class="gap-x-1.5 underline-offset-4 hover:underline flex flex-row cursor-pointer"
+                  >
+                    GitHub Repo
+                    <i class="bi-github"></i>
+                  </a>
+                  <a
+                    class="gap-x-1.5 underline-offset-4 hover:underline flex flex-row cursor-pointer"
+                  >
+                    Live Preview
+                    <i class="bi-arrow-up-right"></i>
+                  </a>
+                </div>
               </div>
             </div>
-          </div>
-          <div class="flex flex-col col-span-1 gap-3">
-            <div class="h-3/4 rounded-xl w-full overflow-hidden">
-              <img src="/img/catbird image (11).jpg" alt="" />
-            </div>
-            <div class="flex flex-col gap-2">
-              <a href="#" class="">
-                <h2 class="hover:text-slate-200 text-xl font-bold duration-300">
-                  Project Two Name
-                </h2>
-              </a>
-              <div class="flex flex-row justify-between">
-                <a
-                  class="gap-x-1.5 underline-offset-4 hover:underline flex flex-row cursor-pointer"
-                >
-                  GitHub Repo
-                  <i class="bi-github"></i>
+            <div class="flex flex-col col-span-1 gap-3">
+              <div class="h-3/4 rounded-xl w-full overflow-hidden">
+                <img src="/img/catbird image (11).jpg" alt="" />
+              </div>
+              <div class="flex flex-col gap-2">
+                <a href="#" class="">
+                  <h2
+                    class="hover:text-slate-200 text-xl font-bold duration-300"
+                  >
+                    Project Two Name
+                  </h2>
                 </a>
-                <a
-                  class="gap-x-1.5 underline-offset-4 hover:underline flex flex-row cursor-pointer"
-                >
-                  Live Preview
-                  <i class="bi-arrow-up-right"></i>
-                </a>
+                <div class="flex flex-row justify-between">
+                  <a
+                    class="gap-x-1.5 underline-offset-4 hover:underline flex flex-row cursor-pointer"
+                  >
+                    GitHub Repo
+                    <i class="bi-github"></i>
+                  </a>
+                  <a
+                    class="gap-x-1.5 underline-offset-4 hover:underline flex flex-row cursor-pointer"
+                  >
+                    Live Preview
+                    <i class="bi-arrow-up-right"></i>
+                  </a>
+                </div>
               </div>
             </div>
-          </div>
-          <div class="flex flex-col col-span-1 gap-3">
-            <div class="h-3/4 rounded-xl w-full overflow-hidden">
-              <img src="/img/catbird image (12).jpg" alt="" />
-            </div>
-            <div class="flex flex-col gap-2">
-              <a href="#" class="">
-                <h2 class="hover:text-slate-200 text-xl font-bold duration-300">
-                  Project Three Name
-                </h2>
-              </a>
-              <div class="flex flex-row justify-between">
-                <a
-                  class="gap-x-1.5 underline-offset-4 hover:underline flex flex-row cursor-pointer"
-                >
-                  GitHub Repo
-                  <i class="bi-github"></i>
+            <div class="flex flex-col col-span-1 gap-3">
+              <div class="h-3/4 rounded-xl w-full overflow-hidden">
+                <img src="/img/catbird image (12).jpg" alt="" />
+              </div>
+              <div class="flex flex-col gap-2">
+                <a href="#" class="">
+                  <h2
+                    class="hover:text-slate-200 text-xl font-bold duration-300"
+                  >
+                    Project Three Name
+                  </h2>
                 </a>
-                <a
-                  class="gap-x-1.5 underline-offset-4 hover:underline flex flex-row cursor-pointer"
-                >
-                  Live Preview
-                  <i class="bi-arrow-up-right"></i>
-                </a>
+                <div class="flex flex-row justify-between">
+                  <a
+                    class="gap-x-1.5 underline-offset-4 hover:underline flex flex-row cursor-pointer"
+                  >
+                    GitHub Repo
+                    <i class="bi-github"></i>
+                  </a>
+                  <a
+                    class="gap-x-1.5 underline-offset-4 hover:underline flex flex-row cursor-pointer"
+                  >
+                    Live Preview
+                    <i class="bi-arrow-up-right"></i>
+                  </a>
+                </div>
               </div>
             </div>
-          </div>
-          <div class="flex flex-col col-span-1 gap-3">
-            <div class="h-3/4 rounded-xl w-full overflow-hidden">
-              <img src="/img/catbird image (13).jpg" alt="" />
-            </div>
-            <div class="flex flex-col gap-2">
-              <a href="#" class="">
-                <h2 class="hover:text-slate-200 text-xl font-bold duration-300">
-                  Project Four Name
-                </h2>
-              </a>
-              <div class="flex flex-row justify-between">
-                <a
-                  class="gap-x-1.5 underline-offset-4 hover:underline flex flex-row cursor-pointer"
-                >
-                  GitHub Repo
-                  <i class="bi-github"></i>
+            <div class="flex flex-col col-span-1 gap-3">
+              <div class="h-3/4 rounded-xl w-full overflow-hidden">
+                <img src="/img/catbird image (13).jpg" alt="" />
+              </div>
+              <div class="flex flex-col gap-2">
+                <a href="#" class="">
+                  <h2
+                    class="hover:text-slate-200 text-xl font-bold duration-300"
+                  >
+                    Project Four Name
+                  </h2>
                 </a>
-                <a
-                  class="gap-x-1.5 underline-offset-4 hover:underline flex flex-row cursor-pointer"
-                >
-                  Live Preview
-                  <i class="bi-arrow-up-right"></i>
-                </a>
+                <div class="flex flex-row justify-between">
+                  <a
+                    class="gap-x-1.5 underline-offset-4 hover:underline flex flex-row cursor-pointer"
+                  >
+                    GitHub Repo
+                    <i class="bi-github"></i>
+                  </a>
+                  <a
+                    class="gap-x-1.5 underline-offset-4 hover:underline flex flex-row cursor-pointer"
+                  >
+                    Live Preview
+                    <i class="bi-arrow-up-right"></i>
+                  </a>
+                </div>
               </div>
             </div>
-          </div>
-          <div class="flex flex-col col-span-1 gap-3">
-            <div class="h-3/4 rounded-xl w-full overflow-hidden">
-              <img src="/img/catbird image (8).jpg" alt="" />
-            </div>
-            <div class="flex flex-col gap-2">
-              <a href="#" class="">
-                <h2 class="hover:text-slate-200 text-xl font-bold duration-300">
-                  Project Five Name
-                </h2>
-              </a>
-              <div class="flex flex-row justify-between">
-                <a
-                  class="gap-x-1.5 underline-offset-4 hover:underline flex flex-row cursor-pointer"
-                >
-                  GitHub Repo
-                  <i class="bi-github"></i>
+            <div class="flex flex-col col-span-1 gap-3">
+              <div class="h-3/4 rounded-xl w-full overflow-hidden">
+                <img src="/img/catbird image (8).jpg" alt="" />
+              </div>
+              <div class="flex flex-col gap-2">
+                <a href="#" class="">
+                  <h2
+                    class="hover:text-slate-200 text-xl font-bold duration-300"
+                  >
+                    Project Five Name
+                  </h2>
                 </a>
-                <a
-                  class="gap-x-1.5 underline-offset-4 hover:underline flex flex-row cursor-pointer"
-                >
-                  Live Preview
-                  <i class="bi-arrow-up-right"></i>
-                </a>
+                <div class="flex flex-row justify-between">
+                  <a
+                    class="gap-x-1.5 underline-offset-4 hover:underline flex flex-row cursor-pointer"
+                  >
+                    GitHub Repo
+                    <i class="bi-github"></i>
+                  </a>
+                  <a
+                    class="gap-x-1.5 underline-offset-4 hover:underline flex flex-row cursor-pointer"
+                  >
+                    Live Preview
+                    <i class="bi-arrow-up-right"></i>
+                  </a>
+                </div>
               </div>
             </div>
-          </div>
-          <div class="flex flex-col col-span-1 gap-3">
-            <div class="h-3/4 rounded-xl w-full overflow-hidden">
-              <img src="/img/catbird image (9).jpg" alt="" />
-            </div>
-            <div class="flex flex-col gap-2">
-              <a href="#" class="">
-                <h2 class="hover:text-slate-200 text-xl font-bold duration-300">
-                  Project Six Name
-                </h2>
-              </a>
-              <div class="flex flex-row justify-between">
-                <a
-                  class="gap-x-1.5 underline-offset-4 hover:underline flex flex-row cursor-pointer"
-                >
-                  GitHub Repo
-                  <i class="bi-github"></i>
+            <div class="flex flex-col col-span-1 gap-3">
+              <div class="h-3/4 rounded-xl w-full overflow-hidden">
+                <img src="/img/catbird image (9).jpg" alt="" />
+              </div>
+              <div class="flex flex-col gap-2">
+                <a href="#" class="">
+                  <h2
+                    class="hover:text-slate-200 text-xl font-bold duration-300"
+                  >
+                    Project Six Name
+                  </h2>
                 </a>
-                <a
-                  class="gap-x-1.5 underline-offset-4 hover:underline flex flex-row cursor-pointer"
-                >
-                  Live Preview
-                  <i class="bi-arrow-up-right"></i>
-                </a>
+                <div class="flex flex-row justify-between">
+                  <a
+                    class="gap-x-1.5 underline-offset-4 hover:underline flex flex-row cursor-pointer"
+                  >
+                    GitHub Repo
+                    <i class="bi-github"></i>
+                  </a>
+                  <a
+                    class="gap-x-1.5 underline-offset-4 hover:underline flex flex-row cursor-pointer"
+                  >
+                    Live Preview
+                    <i class="bi-arrow-up-right"></i>
+                  </a>
+                </div>
               </div>
             </div>
-          </div>
-        </main>
+          </main>
+        </div>
       </article>
 
       <!-- SUBSECTION CONTACT -->
