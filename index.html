@@ -119,12 +119,12 @@
           <div class="gap-x-4 flex flex-row font-mono">
             <a
               href="#"
-              class="bg-slate-900 hover:bg-slate-800 px-5 py-3 font-medium duration-300"
+              class="bg-slate-900 hover:bg-slate-800 rounded-xl px-5 py-3 font-medium duration-300"
               >view projects</a
             >
             <a
               href="#"
-              class="bg-slate-900 hover:bg-slate-800 px-5 py-3 font-medium duration-300"
+              class="bg-slate-900 hover:bg-slate-800 rounded-xl px-5 py-3 font-medium duration-300"
               >get in touch</a
             >
           </div>
@@ -187,7 +187,7 @@
             </p>
             <div class="lg:gap-3 flex flex-row flex-wrap gap-2 pt-1">
               <div
-                class="bg-slate-700 hover:bg-slate-600 lg:p-4 flex items-center justify-center p-3 duration-500 rounded-sm cursor-pointer"
+                class="bg-slate-700 hover:bg-slate-600 lg:p-4 flex items-center justify-center p-3 duration-500 rounded-lg cursor-pointer"
                 title="HTML"
               >
                 <img
@@ -196,7 +196,7 @@
                 />
               </div>
               <div
-                class="bg-slate-700 hover:bg-slate-600 lg:p-4 flex items-center justify-center p-3 duration-500 rounded-sm cursor-pointer"
+                class="bg-slate-700 hover:bg-slate-600 lg:p-4 flex items-center justify-center p-3 duration-500 rounded-lg cursor-pointer"
                 title="CSS"
               >
                 <img
@@ -205,7 +205,7 @@
                 />
               </div>
               <div
-                class="bg-slate-700 hover:bg-slate-600 lg:p-4 flex items-center justify-center p-3 duration-500 rounded-sm cursor-pointer"
+                class="bg-slate-700 hover:bg-slate-600 lg:p-4 flex items-center justify-center p-3 duration-500 rounded-lg cursor-pointer"
                 title="TailwindCSS"
               >
                 <img
@@ -214,7 +214,7 @@
                 />
               </div>
               <div
-                class="bg-slate-700 hover:bg-slate-600 lg:p-4 flex items-center justify-center p-3 duration-500 rounded-sm cursor-pointer"
+                class="bg-slate-700 hover:bg-slate-600 lg:p-4 flex items-center justify-center p-3 duration-500 rounded-lg cursor-pointer"
                 title="Bootstrap"
               >
                 <img
@@ -223,7 +223,7 @@
                 />
               </div>
               <div
-                class="bg-slate-700 hover:bg-slate-600 lg:p-4 flex items-center justify-center p-3 duration-500 rounded-sm cursor-pointer"
+                class="bg-slate-700 hover:bg-slate-600 lg:p-4 flex items-center justify-center p-3 duration-500 rounded-lg cursor-pointer"
                 title="C++"
               >
                 <img
@@ -445,10 +445,41 @@
       </article>
 
       <!-- SUBSECTION CONTACT -->
-      <article class="" id="contact"></article>
+      <article class="md:px-12 xl:px-48 2xl:px-64 p-6" id="contact">
+        <header class="flex flex-row items-center justify-between pb-4">
+          <h2 class="xl:text-3xl font-mono text-2xl font-bold capitalize">
+            contact me
+          </h2>
+        </header>
+        <form method="GET" class="flex flex-col gap-4">
+          <div class="flex flex-row w-full gap-4">
+            <input
+              type="text"
+              class="rounded-xl bg-inherit w-full border-2"
+              placeholder="Enter your name..."
+            />
+            <input
+              type="email"
+              class="rounded-xl bg-inherit w-full border-2"
+              placeholder="Enter your email address..."
+            />
+          </div>
+          <textarea
+            class="rounded-xl bg-inherit w-full border-2 resize-none"
+            placeholder="Enter your message..."
+          >
+          </textarea>
+          <button
+            type="submit"
+            class="bg-slate-600 rounded-xl hover:bg-slate-700 py-2 font-medium text-center duration-300"
+          >
+            Send
+          </button>
+        </form>
+      </article>
     </main>
 
     <!-- SECTION FOOTER -->
-    <footer class=""></footer>
+    <footer class="md:px-12 xl:px-48 2xl:px-64 bg-slate-700 p-6"></footer>
   </body>
 </html>

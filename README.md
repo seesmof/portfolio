@@ -22,7 +22,7 @@ Instructions on how to install the project:
 ## Screenshots
 
 ![](./img/msedge_2oe9Cg0UsA.png)
-![](./img/msedge_ZwZOhjHL4c.jpg)
+![](./img/msedge_LPyCM4EToi.jpg)
 
 ## Usage
 
