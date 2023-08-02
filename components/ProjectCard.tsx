@@ -10,8 +10,7 @@ const ProjectCard: React.FC<Props> = ({ project }) => {
     <>
       <div className="flex-1 w-full group relative">
         <img
-          // src={`/projects/${project.image}`}
-          src={`/${project.image}`}
+          src={`/projects/${project.image}`}
           className="absolute inset-0 w-full h-full object-cover"
           alt=""
         />
