@@ -15,12 +15,15 @@ const ProjectCard: React.FC<Props> = ({ project }) => {
           className="absolute inset-0 w-full h-full object-cover"
           alt=""
         />
-        <div className="group-hover:opacity-100 opacity-0 duration-500">
+        <a
+          href={project.previewLink}
+          className="group-hover:opacity-100 opacity-0 duration-500 cursor-pointer"
+        >
           <div className="bg-black bg-opacity-50 inset-0 absolute"></div>
-          <h2 className="absolute self-center font-bold text-3xl">
+          <h2 className="font-bold absolute text-3xl top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2">
             {project.name}
           </h2>
-        </div>
+        </a>
       </div>
     </>
   );
