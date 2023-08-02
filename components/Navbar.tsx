@@ -8,11 +8,14 @@ const Navbar = () => {
     <>
       <div className="flex flex-row items-center justify-center gap-4 md:gap-6 p-4">
         <Link className={LinkStyles} href="/">
-          older versions
+          portfolio
         </Link>
         <Link className={LinkStyles} href="/">
-          github page
+          older versions
         </Link>
+        <a className={LinkStyles} href="https://github.com/seesmof">
+          github page
+        </a>
         <Link className={LinkStyles} href="/">
           other projects
         </Link>

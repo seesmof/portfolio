@@ -3,12 +3,12 @@ const Projects: IProject[] = [
   {
     name: "Portfolio",
     previewLink: "https://portfolio-portfolio.vercel.app/",
-    picture: "/portfolio.png",
+    image: "placeholder.jpg",
   },
   {
     name: "Something Else",
     previewLink: "https://portfolio-portfolio.vercel.app/",
-    picture: "/portfolio.png",
+    image: "placeholder.jpg",
   },
 ];
 
