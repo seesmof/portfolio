@@ -12,7 +12,7 @@ export default function Home() {
   return (
     <>
       <ProjectCard project={Projects[currentProject]} />
-      <div className="flex z-20 flex-row  gap-2 items-center justify-center fixed bottom-4 self-center">
+      <div className="flex z-20 flex-row bg-black w-full p-4 bottom-0 gap-2 items-center justify-center fixed self-center">
         <button
           onClick={() => {
             if (currentProject === 0) {
