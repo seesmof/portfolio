@@ -5,6 +5,11 @@ const Projects: IProject[] = [
     previewLink: "https://portfolio-portfolio.vercel.app/",
     picture: "/portfolio.png",
   },
+  {
+    name: "Something Else",
+    previewLink: "https://portfolio-portfolio.vercel.app/",
+    picture: "/portfolio.png",
+  },
 ];
 
 export default Projects;
