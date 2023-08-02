@@ -1,45 +1,47 @@
-# Personal Portfolio
+<a name="readme-top"></a>
 
-This is a repository of my personal portfolio page. It has come a long way from the very beginning of my programming journey, so feel free to check it out yourself
+<div align="center">
+  <a href="https://github.com/seesmof/">
+    <img src="./public/logo.png" alt="Logo" height="80">
+  </a>
 
-## Table of Contents
+<h1 align="center">Portfolio</h1>
+</div>
 
-- [Personal Portfolio](#personal-portfolio)
-  - [Table of Contents](#table-of-contents)
-  - [Installation](#installation)
-  - [Screenshots](#screenshots)
-  - [Usage](#usage)
-  - [Contributing](#contributing)
-  - [License](#license)
+## Table of contents
 
-## Installation
+- [Table of contents](#table-of-contents)
+- [About](#about)
+- [Screenshots](#screenshots)
+- [Built with](#built-with)
+- [Links](#links)
+- [License](#license)
 
-Instructions on how to install the project:
+## About
 
-1. Clone the repository: `git clone https://github.com/seesmof/portfolio.git`
-2. Install dependencies: `npm install`
+This repository serves as my personal portfolio website, providing a platform to showcase my extensive experience as a frontend developer. The website boasts a clean and visually appealing design that elegantly displays all of my completed projects to date. Built using React, Tailwind CSS, and Next.js, it is both fully functional and fully responsive across various devices.
 
 ## Screenshots
 
-![](./img/msedge_2oe9Cg0UsA.png)
-![](./img/msedge_LPyCM4EToi.jpg)
+![The app in mobile view](./public/mobile.png)
 
-## Usage
+![The app in desktop view](./public/desktop.png)
 
-This project is deployed using GitHub pages, and a link for it below
+## Built with
 
-- [Live Preview](https://github.com/seesmof/portfolio)
+![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
 
-## Contributing
+![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white)
 
-Instructions on how to contribute to the project:
+![Next JS](https://img.shields.io/badge/Next-black?style=for-the-badge&logo=next.js&logoColor=white)
 
-1. Fork the repository
-2. Create a new branch: `git checkout -b feature-name`
-3. Make changes and commit: `git commit -m "Add feature-name"`
-4. Push to the branch: `git push origin feature-name`
-5. Submit a pull request
+## Links
+
+- [Live Preview](https://seesmof.github.io/portfolio/)
+- [Icon](https://www.flaticon.com/free-icons/work)
 
 ## License
 
-The project is licensed under the [MIT License](https://opensource.org/licenses/MIT).
+This project is licensed under the [MIT License](./LICENSE).
+
+<p align="right"><a href="#readme-top"><strong>Back to top</strong></a></p>
