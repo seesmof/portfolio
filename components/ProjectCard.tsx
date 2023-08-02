@@ -8,7 +8,7 @@ interface Props {
 const ProjectCard: React.FC<Props> = ({ project }) => {
   return (
     <>
-      <div className="flex flex-1 w-full items-center group justify-center relative">
+      <div className="flex-1 w-full group relative">
         <img
           // src={`/projects/${project.image}`}
           src={`/${project.image}`}
