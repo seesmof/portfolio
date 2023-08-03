@@ -6,13 +6,13 @@ import { useState } from "react";
 import { BsChevronRight, BsChevronLeft } from "react-icons/bs";
 
 export default function Home() {
-  const ButtonStyles = `px-4 h-10 flex items-center rounded-md bg-black text-lg text-white font-medium`;
+  const ButtonStyles = `px-4 h-10 flex items-center duration-500 active:scale-95 hover:bg-neutral-700 rounded-md bg-inherit text-lg text-white font-medium`;
   const [currentProject, setCurrentProject] = useState(0);
 
   return (
     <>
       <ProjectCard project={Projects[currentProject]} />
-      <div className="flex h-min flex-row bg-black w-full p-4 gap-2 items-center justify-center self-center">
+      <div className="flex h-min flex-row bg-inherit w-full p-4 gap-2 items-center justify-center self-center">
         <button
           onClick={() => {
             if (currentProject === 0) {
