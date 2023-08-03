@@ -19,7 +19,7 @@ export default function RootLayout({
     <html lang="en">
       <body className={inter.className}>
         <main className="min-h-screen bg-neutral-900 flex flex-col text-neutral-50">
-          <div className="h-min sticky z-20 top-0 bg-inherit">
+          <div className="h-min bg-inherit">
             <Navbar />
           </div>
           {children}

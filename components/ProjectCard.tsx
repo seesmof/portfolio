@@ -11,7 +11,7 @@ const ProjectCard: React.FC<Props> = ({ project }) => {
       <div className="flex-1 w-full group relative">
         <img
           src={`/projects/${project.image}`}
-          className="absolute inset-0 w-full h-full object-cover"
+          className="absolute inset-0 w-full h-full object-cover object-top duration-1000 group-hover:object-bottom"
           alt=""
         />
         <a
